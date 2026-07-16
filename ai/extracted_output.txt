@@ -1,0 +1,756 @@
+--- PAGE 1 ---
+TK
+24CST33
+DIGITAL LOGIC AND DESIGN PRINCIPLES
+Programme&
+B.E_
+Computer Science and Engineering
+Sem:
+Categ
+T
+P
+SL*
+Total
+Credit
+Branch
+ory
+Prerequisites
+Nil
+3
+ES
+45
+0
+0
+45
+90
+3
+Preamble
+This course enables the students to understand the basic principles of Binary Codes, Boolean algebra, digital
+logic gates, combinational and sequential circuits. It also focuses on registers, counters and programmable
+logic devices_
+Unit
+Number Systems and Boolean Algebra: 
+9
+Complement Number System-Signed Binary Numbers
+Binary Codes
+Binary Logic
+Boolean Algebra: Definitions
+Basic and
+Axiomatic -~Theorems of Boolean Algebra
+Boolean functions: Realization of functions using Logic
+Unit
+S
+II
+Gate Level Minimization:
+9
+Canonical and Standard Forms of Boolean functions
+Minimization of functions using Karnaugh
+Don't-Care Conditions
+NAND and NOR Implementation_ Exclusive-OR function
+Minimization of functions using QuineMcCluskey method
+Unit
+Combinational_Logic:
+9
+Analysis procedure
+Design procedure
+Binary Adder &Subtractor: Half Adder
+Full Adder
+Half Subtractor
+Full Subtractor _
+Magnitude  Comparator
+Decoders
+Encoders
+Multiplexers
+Demultiplexers
+Boolean
+Functions implementation using
+Multiplexers
+Unit
+IV
+Sequential Logic:
+9
+Introduction
+Latches and Flip-flops
+Analysis of clocked sequential circuits: State Equations
+State Table
+State Diagram
+State Reduction and Assignment _ Mealy and Moore machines and their circuit design procedure
+Unit _ V
+Register,_Counter
+9
+Register ,
+Counter
+Shift Registers: Serial Transfer
+Serial Addition
+Universal Shift register
+Binary Ripple Counter
+BCD
+Ripple Counter
+Ring Counter
+L
+Johnson Counter:
+TEXT BOOK:
+Morris Mano M_
+Micheal D. Ciletti,
+'Digital Design: With an Introduction to the Verilog HDL, VHDL, and
+1_
+System Verilog"
+6th Edition_Pearson Education2024
+REFERENCESI MANUAL / SOFTWARE:
+Salivahanan S. &Arivazhagan S.
+"Digital Circuits and Design" , 5th Edition, Oxford University Press, New
+1_
+Delhi, 2022.
+2
+Donald D.Givone
+'Digital Principles and Design" , Tata McGraw-Hill 1st Edition,2012_
+3_
+Virtual Labs: http Ivlabs iitkgp acin/dec
+*includes
+Term Work(TW) & Online / Certification course hours
+7
+'':
+gates
+Map
+
+--- PAGE 2 ---
+COURSE OUTCOMES:
+BT Mapped
+On_completion of the course,_the_students will be ableto_
+(Highest Level)
+CO1
+apply the different number systems and their conversion and boolean algebra
+Applying (K3)
+CO2
+make use of map and tabulation technique to evaluate the given boolean expression
+Applying (K3)
+C03
+make use of combinational logic circuits to evaluate the boolean expression
+Applying (K3)
+CO4
+apply the concepts of sequential logic circuits to implement boolean functions
+Applying (K3)
+CO5
+construct simple digital systems using registers and counters.
+Applying (K3)
+Mapping of COs with POs and PSOs
+COsIPOs
+PO1
+PO2
+PO3
+PO4
+PO5
+PO6
+PO7
+PO8
+PO9
+PO1O
+PO11
+PSO1
+PSO2
+CO1
+3
+2
+1
+3
+1
+CO2
+3
+2
+3
+1
+CO3
+3
+2
+2
+2
+3
+1
+CO4
+3
+2
+2
+2
+1
+3
+1
+CO5
+3
+2
+2
+2
+1
+3
+1
+1
+~
+Slight; 2
+Moderate , 3
+Substantial, BT- Bloom's Taxonomy
+ASSESSMENT PATTERN
+THEORY
+Test
+Bloom's
+Remembering
+Understanding
+Applying
+Analyzing
+Evaluating
+Creating
+Total %
+Categoryt
+(K1) %
+(K2) %
+(K3) %
+(K4) %
+(K5) %
+(K6) %
+CAT 1
+45
+55
+100
+CAT 2
+50
+50
+100
+CAT 3
+50
+50
+100
+ESE
+40
+60
+100
+t3% may be varied (CAT 1,2,3
+50 marks & ESE
+100 marks)
+GADEWC _
+Signalure Of ihe Chairman
+Bcard of Studies
+CSF
+"Ecrins
+[TSvmaGqvei
+2
+Uk
+a
+A-cY
+
+--- PAGE 3 ---
+24MNT31
+ENVIRONMENTAL SCIENCE
+(Common to AIl Engineering and Technology Branches)
+Programme &
+AII B.EIB.Tech Branches
+Sem:
+Category
+T
+P
+SL
+Total
+Credit
+Branch
+Prerequisites
+NIL
+3 / 6
+MC
+30
+0
+0
+0
+30
+Preamble
+This
+course
+provides
+an
+approach to
+understand the
+various natural resources,
+ecosystem, bio-diversity,
+pollution   control
+&
+monitoring methods for  sustainable life ad also to provide knowledge and to create
+awareness for engineering_students onsocial Issues and the environment
+Unit - |
+Environmental_Studies and _Natural Resources_
+6
+Introduction to Environmental Science
+uses ,
+over-exploitation and conservation of forest, water, mineral, food, energy and land
+resources-case studies:
+Unit
+5
+II
+Ecosystem and Biodiversity
+6
+Ecosystems: concept and components of an ecosystem ~structural and functional features
+Functional attributes (Food chain and
+Food
+only) Biodiversity: Introduction
+Classification
+Bio
+geographical classification of India- Values of biodiversity
+Threats
+and Conservation of biodiversity
+case studies:
+Unit
+IlI
+Environmental Pollution
+6
+Environmental Pollution: Definition
+causes, effects and control measures of:(a) Air pollution
+Climate change , global warming, acid
+rain, ozone layer depletion (b)Water pollution (c) Soil pollution
+Role of an individual in prevention of pollution
+case studies.
+Unit - IV
+Environment Quality Standards and Monitoring
+6
+Ambient  air quality standards
+Water  quality parameters and standards:  Turbidity , pH;
+Suspended  solids,
+hardness, residual
+chlorine, sulfates, phosphates, iron and manganese, DO, BOD, COD (definition, specifications and limits only)
+Introduction to EIA
+objectives and process of EIA
+environment protection act
+air (prevention and control of pollution) act
+water (prevention and
+control of pollution_
+act-case studies
+Unit
+V
+Social Issues and the Environment
+From Unsustainable to Sustainable development
+three  pillars  of sustainability-  factors affecting environmental sustainability-
+approaches for sustainable development- Social issues: Urban problem related to energy
+population growth and explosion
+issues
+related to resettlement and rehabilitation, E-waste recycling
+role of IT in environment and human health
+case studies:
+TEXT BOOK:
+AnubhaKaushik, and Kaushik C.P_
+"Environmental Science and Engineering"
+6th Multicolour Edition, New Age International
+1
+Pvt: Ltd
+New Delhi,2023
+REFERENCES:
+Palanisamy PN:
+Manikandan P
+Geetha
+A,, Manjula Rani K
+Kowshalya VN:
+"Chemistry for Engineering" ,
+Revised
+1_
+Edition
+Pearson EducationNew Delhi,2024,
+ErachBharucha,
+Textbook
+of
+Environmental
+Studies
+for
+Undergraduate
+Coursesll,
+University
+Grands   Commission,
+2
+Universities Press India Private_Limited_Hyderguda_Hyderabad_2005
+*includes
+Term Work(TW) & Online
+Certification course hours
+web
+
+--- PAGE 4 ---
+COURSE OUTCOMES:
+BT Mapped
+On completion of the course_the students will be able to
+(Highest Level)
+CO1
+illustrate the various natural resources and role of individual for its conservation
+Understanding (K2)
+CO2
+elaborate the features of ecosystem and biodiversity to find the need for conservation:
+Understanding (K2)
+C03
+manipulate the sources, effects and control methods of various environmental pollution.
+Applying (K3)
+make use of the knowledge of Quality standards, EIA and environmental legislation laws to
+CO4
+monitor the environment
+Applying (K3)
+utilize the knowledge of various social issues and impact of population explosion on environment
+CO5
+towards sustainability:
+Understanding (K2)
+Mapping of COs with POs and PSOs
+COsIPOs
+PO1
+PO2
+PO3
+PO4
+POS
+PO6
+PO7
+PO8
+PO9
+PO1O
+PO11
+PSO1
+PSO2
+CO1
+2
+1
+3
+2
+CO2
+2
+3
+2
+C03
+2
+2
+3
+2
+CO4
+2
+2
+3
+2
+CO5
+2
+3
+2
+1
+T
+Slight; 2
+5
+Moderate, 3
+3
+Substantial, BT- Bloom's Taxonomy
+ASSESSMENT PATTERN
+THEORY
+Test
+Bloom's
+Remembering
+Understanding
+Applying
+Analyzing
+Evaluating
+Creating (K6)
+Total
+Categoryt
+(K1) %
+(K2) %
+(K3)
+%
+(K4) %
+(K5) %
+%
+%
+CAT1
+25
+40
+35
+100
+CAT2
+25
+40
+35
+100
+CAT3
+25
+40
+35
+100
+ESE
+NA
++3% may be varied (CAT 1,2 & 3
+"
+50 marks )
+r
+Signature 0f [he Chainman
+X
+Boend ofSucies
+Sos#
+SNGinEERIG
+(Nomt
+(GADEMIc
+'CELL
+Lw
+0
+8
+
+--- PAGE 5 ---
+Vn
+24CSL31 -DATA STRUCTURES LABORATORY
+Programme&
+B.E:
+Computer Science and Engineering
+Sem
+Categ
+T
+P
+SL
+Total
+Credit
+Branch
+ory
+Prerequisites
+Programming and Linear Data Structures
+3
+PC
+0
+0
+30
+0
+30
+This course
+provides kriowledge to develop applications using the concepts of linear and non-linear data
+Preamble
+structures:
+LIST OF EXPERIMENTS
+EXERCISES:
+1
+Implementation of Linked List and its Operations:
+2
+Implementation of Polynomial Addition and Balancing Parenthesis using ADT.
+3_
+Implementation of Binary Search Tree Traversals.
+4
+Implementation of AVL Tree Operations:
+5_
+Implementation of Heap and its Operations.
+6
+Implementation of Graph Traversal Techniques:
+7
+Implementation of Topological Sorting Algorithm.
+8_
+Implementation of Dijkstra's Algorithm:
+9_
+Implementation of Prim's and Kruskal's Algorithm.
+10.
+Implementation of Hash Table Operations
+an
+Store Elements, Search Elements, and Delete Elements:
+11.
+Mini Project
+REFERENCESI MANUAL ISOFTWARE:
+1
+Qperating_System
+Windows/Linux
+2
+Software
+CIJava
+3_
+Laboratory Manual
+COURSE OUTCOMES:
+BT Mapped
+On completion of the course,_the students will be able to
+(Highest Level)
+Applying (K3),
+CO1
+utilize tinear data structures effectively to address various computational problems
+Precision (S3)
+apply concepts of Iinear data structures to solve problems typically associated with non-linear data
+Applying (K3),
+CO2
+structures:
+Precision (53)
+select  appropriate   graph   algorithms
+and
+indexing  techniques to optimize the performance
+of
+Applying (K3),
+CO3
+algorithms
+Precision (S3)
+Mapping of Cos with POs and PSOs
+PO1
+COsIPOs
+PO1
+PO2
+PO3
+PO4
+PO5
+PO6
+PO7
+PO8
+PO9
+PO11
+PSO1
+PSO2
+0
+CO1
+3
+2
+1
+2
+3
+2
+CO2
+3
+2
+2
+3
+2
+CO3
+3
+2
+2
+3
+2
+1
+Slight,2
+5
+Moderate,3
+Substantial_BT-Bloom's Taxonomy
+*includes
+Term Work(TW) & Online / Certification course hours
+Signzture 0f the Chairman
+Oka
+Buef Studies
+CCE
+~
+using
+Array:
+AGAQEMTc
+CELL
+Manimfrm
+0
+8
+'ENCiNECBiS
+84y
+
+--- PAGE 6 ---
+24CSL32
+DESIGN THINKING LABORATORY
+Programme & Branch
+B.E:
+Computer Science and Engineering
+Sem:
+Category
+T
+P
+SL*
+Total
+Credit
+Prerequisites
+NIL
+3
+PC
+0
+30
+30
+Preamble
+It provides an exposure to develop a prototype model for design challenge.
+LIST OF EXPERIMENTS
+EXERCISES:
+1.
+Develop SCOPES Template for your design challenge.
+2
+Perform User Research by using explore method and tools
+3
+Conduct Field Observations for your design challenge.
+4_
+Conduct an interview with your customer by using empathy map and journey map_
+5_
+Create user personas for
+product or service_
+6_
+Develop SCAMPER template for ideation.
+7
+Create user scenarios
+story telling for your product or service _
+8
+Create low-fidelity prototypes (paper prototypes) for your design challenge.
+9
+Create medium fidelity prototypes (hardwarelsoftware prototypes) for your design challenge:
+10_
+Collect feedback from users for your prototype model.
+11_
+Mini Project
+REFERENCESi MANUAL ISOFTWARE:
+1
+Chart papers, Sticky Notes,_IOT Components:
+2.
+Lee Chong Hwa; "Design Thinking the Guidebook" , Design Thinking Master Trainers of Bhutan, 2017. (E-book)
+COURSE OUTCOMES:
+BT Mapped
+On completion of the course, the students will be able to
+(Highest Level)
+CO1
+construct design challenge and reframe the design challenge to design opportunity-
+Applying (K3),
+Precision (53)
+interview the user, and know the feelings of users to foster deep understanding and be able to
+Applying (K3) ,
+CO2
+uncover the deep user insights and needs
+Precision (53)
+Applying (K3) ,
+C03
+develop ideas and prototypes by brain storming using the ideation tools.
+Precision (S3)
+Mapping of Cos with POs and PSOs
+COsIPOsIPSOs
+PO1
+PO2
+PO3
+PO4
+POS
+PO6
+PO7
+PO8
+PO9
+PO1O
+PO11
+PSO1
+PSO2
+CO1
+3
+3
+3
+2
+3
+2
+2
+3
+1
+CO2
+3
+3
+3
+2
+3
+2
+2
+3
+CO3
+3
+3
+3
+2
+3
+2
+2
+3
+Slight,2
+Moderate
+3
+Substantial, BT-Bloom's Taxonomy
+*includes  Term Work( TW) & Online
+Certification course hours
+Signalure of the Chairman
+49l Studies
+CSE
+SG
+your
+GAdEMTc
+CELZ _
+{(
+8
+
