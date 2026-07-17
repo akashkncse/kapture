@@ -54,9 +54,6 @@ class LearningResourcesBlueprint(BaseModel):
 class SyllabusObject(BaseModel):
     courseCode: str = Field(description="The unique alphanumeric identifier for the course (e.g., 24CST33).")
     courseName: str = Field(description="The complete name of the course.")
-    category: str = Field(description="Course classification abbreviation (e.g., ES, MC, PC).")
-    prerequisites: List[str] = Field(default_factory=list, description="List of prerequisite courses required, or ['Nil'] if none.")
-    preamble: str = Field(description="The introductory rationale or overview text for the course.")
     units: List[UnitBlueprint] = Field(default_factory=list, description="List of academic breakdown units. Leave empty if it's a practical lab course.")
     practicalExercises: List[PracticalExerciseBlueprint] = Field(default_factory=list, description="List of exercises or lab experiments. Leave empty if it's a pure theory course.")
     learningResources: LearningResourcesBlueprint = Field(description="Associated course literature, books, and references.")
@@ -73,7 +70,7 @@ def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> str:
     """Converts PDF bytes to images and performs OCR across all pages."""
     try:
         print("Converting incoming PDF bytes to images...")
-        pages = convert_from_bytes(pdf_bytes, dpi=300)
+        pages = convert_from_bytes(pdf_bytes, dpi=150)
         total_pages = len(pages)
         print(f"Successfully converted PDF. Total pages to process: {total_pages}")
         

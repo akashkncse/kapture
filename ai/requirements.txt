@@ -5,3 +5,5 @@ numpy
 fastapi
 dotenv
 google-genai
+python-multipart
+uvicorn
