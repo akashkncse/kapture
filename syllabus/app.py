@@ -4,11 +4,13 @@ import json
 from typing import List, Optional
 import numpy as np
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware  # <-- Import CORSMiddleware
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 from pdf2image import convert_from_bytes
 import easyocr
 from google import genai
+
 from google.genai import types
 from pymongo import MongoClient  # <-- Added MongoDB client
 
@@ -40,7 +42,19 @@ app = FastAPI(
     title="Syllabus Extraction API",
     description="Extracts structured curriculum information from syllabus PDFs, drops them into MongoDB, and handles updates cleanly."
 )
-
+origins = [
+    "http://localhost:3000",    # Common React development port
+    "http://localhost:5173",    # Common Vite/Vue development port
+    "http://127.0.0.1:3000",
+    "*",                      # Uncomment this line to allow ALL origins (Wildcard)
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,            # Allows specific origins (or ["*"] for all)
+    allow_credentials=True,
+    allow_methods=["*"],              # Allows all methods (GET, POST, PUT, DELETE, etc.)
+    allow_headers=["*"],              # Allows all headers
+)
 # Initialize EasyOCR Reader globally once to cache model weights in memory/GPU
 print("Initializing EasyOCR reader...")
 reader = easyocr.Reader(['en'], gpu=True)
