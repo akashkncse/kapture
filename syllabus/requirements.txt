@@ -1,0 +1,10 @@
+pdf2image
+easyocr
+Pillow
+numpy
+fastapi
+dotenv
+google-genai
+python-multipart
+uvicorn
+pymongo
